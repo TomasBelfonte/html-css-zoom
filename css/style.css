@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 40px;
+}
+
+main {
+    width: 1500px;
+    height: 758px;
+    padding: 5px 50px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.zoom-container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.nav-bar-container {
+    width: 1500px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.nav-box1 {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.nav-box1 a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.nav-box2 {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.card-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.card {
+    margin-right: 3px;
+    margin-left: 3px;
+
+    margin-top: 5px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.pinco-pallo {
+    background-color: gray;
+    color: white;
+    display: inline;
+    border: 1 px solid;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+footer {
+    width: 1500px;
+    margin: 0 auto;
+    background-color: #272727;
+    color: white;
+    display: flex;
+}
+
+.action-bar-container {
+    width: 1500px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.action-bar-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenitore-azioni {
+    display: flex;
+    flex-grow: 6;
+    justify-content: center;
+}
+.audio-video {
+    display: flex;
+    flex-grow: 0.5;
+}
+
+.logo-microfono {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.logo-microfono a {
+    font-size: 21px;
+}
+
+.testo-microfono {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-video {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.testo-video {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-invite {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-invite {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.apice {
+    
+    flex-grow: 0;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+.logo-menage {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-menage {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-polling {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-polling {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-share {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.logo-share a {
+    color: #00C941;
+}
+
+.text-share {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-chat {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-chat {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-record {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-record {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-breakout {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-breakout {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo-more {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+.text-more {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.end {
+    background-color: #4B4B4B;
+    display: flex;
+    flex-grow: 1;
+    font-size: 18px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.end a {
+    color: red;
+}
